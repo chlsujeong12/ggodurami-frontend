@@ -1,6 +1,6 @@
 // src/api/auth.ts
 import { apiClient } from './config';
-import { RegisterRequest, RegisterResponse } from ../types/auth;
+import { RegisterRequest, RegisterResponse } from '../types/auth';
 
 export const authAPI = {
   // 회원가입
